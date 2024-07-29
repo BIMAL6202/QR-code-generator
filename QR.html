@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile card ui design</title>
-    <link rel="stylesheet" href="project1.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-        </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project1.css">
+  <title>Document</title>
 </head>
 <body>
-    <div class="profile-card">
-        <div class="image">
-            <img src="unnamed.jpg" alt="" class="profile-img">
-        </div>
-        <div class="text-data">
-            <span class="name">CodingHub</span>
-            <span class="job">freelancer</span>
-        </div>
+   <div class="container">
+    <h1>QR code generator</h1>
+    <div class="image">
+      <img src="no-image.jpg" alt="" id="image">
     </div>
-    
+    <div class="form">
+      <input type="text" id="content" 
+      placeholder="content in QR code">
+      <button id="btnCreate">Create QRcode</button>
+    </div>
+   </div>
+   <script src="examples.js"></script>
 </body>
 </html>
